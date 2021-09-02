@@ -1,0 +1,195 @@
+.cards {
+    width: 140px;
+    height: 200px;
+    margin: 50px auto;
+    position: relative;
+    transform: rotate(5deg);
+}
+
+.card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform-origin: 50% 200% 0;
+    outline: 1px solid #fbfbfb;
+    background-color: red;
+}
+
+.topraw {
+    margin: 10px 0 0 10px;
+    font-size: 15px;
+    width: 100%;
+    text-align: left;
+}
+
+.middle7spades {
+    font-size: 40px;
+    line-height: 26px;
+    height: 120px;
+    text-align: center;
+}
+
+.middleraw7spades {
+    margin-bottom: 2px;
+}
+
+.middle3hearts {
+    font-size: 40px;
+    line-height: 26px;
+    height: 120px;
+    text-align: center;
+}
+
+.middleraw3hearts {
+    margin-bottom: 15px;
+}
+
+.middle10diams {
+    font-size: 40px;
+    line-height: 26px;
+    height: 120px;
+    text-align: center;
+}
+
+.middleraw10diam2 {
+    margin-top: -12px;
+}
+
+.middleraw10diam3 {
+    margin-top: -12px;
+}
+
+.middleraw10diam4 {
+    margin-top: 5px;
+}
+
+.middle9spades {
+    font-size: 40px;
+    line-height: 26px;
+    height: 120px;
+    text-align: center;
+}
+
+.middleraw9spades2 {
+    margin-top: -12px;
+}
+
+.middleraw9spades3 {
+    margin-top: -12px;
+}
+
+.middlerawAspades {
+    height: 120px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.middlerawQclubs {
+    height: 120px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.middlerawJhearts {
+    height: 120px;
+    font-size: 80px;
+    text-align: center;
+}
+
+.bottomraw {
+    font-size: 15px;
+    line-height: 13px;
+    transform: rotate(-180deg);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.card:nth-of-type(1) {
+    transform: rotate(-45deg);
+}
+
+.card:nth-of-type(1):hover {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: 15px;
+    bottom: 15px;
+}
+
+.card:nth-of-type(2) {
+    transform: rotate(-30deg);
+    color: white;
+}
+
+.card:nth-of-type(2):hover {
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    right: 15px;
+    bottom: 15px;
+}
+
+.card:nth-of-type(3) {
+    transform: rotate(-15deg);
+    color: white;
+}
+
+.card:nth-of-type(3):hover {
+    position: absolute;
+    top: -15px;
+    left: -5px;
+    right: 5px;
+    bottom: 15px;
+}
+
+.card:nth-of-type(4) {
+    transform: rotate(0deg);
+}
+
+.card:nth-of-type(4):hover {
+    position: absolute;
+    top: -15px;
+    left: -5px;
+    right: 5px;
+    bottom: 15px;
+}
+
+.card:nth-of-type(5) {
+    transform: rotate(15deg);
+}
+
+.card:nth-of-type(5):hover {
+    position: absolute;
+    top: -15px;
+    left: -5px;
+    right: 5px;
+    bottom: 15px;
+}
+
+.card:nth-of-type(6) {
+    transform: rotate(30deg);
+}
+
+.card:nth-of-type(6):hover {
+    position: absolute;
+    top: -15px;
+    left: -5px;
+    right: 5px;
+    bottom: 15px;
+}
+
+.card:nth-of-type(7) {
+    transform: rotate(45deg);
+    color: white;
+}
+
+.card:nth-of-type(7):hover {
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    right: -15px;
+    bottom: 5px;
+}
